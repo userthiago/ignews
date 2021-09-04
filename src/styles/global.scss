@@ -20,9 +20,10 @@ button {
 :root {
   --white: #FFFFFF;
 
-  --gray-light: #e1e1e6;
-  --gray: #a8a8b3;
-  --gray-dark: #121214;
+  --gray-100: #e1e1e6;
+  --gray-300: #a8a8b3;
+  --gray-800: #29292e;
+  --gray-900: #121214;
 
   --cyan: #61dafb;
   --yellow: #eba417;
@@ -41,7 +42,7 @@ button {
 }
 
 body {
-  background: var(--gray-dark);
+  background: var(--gray-900);
   color: var(--white);
 }
 
