@@ -38,9 +38,9 @@
       &.active {
         color: var(--white);
         font-weight: 700;
-        
+
         &::after {
-          content: '2';
+          content: '';
           position: absolute;
           bottom: 0;
           left: 0;
