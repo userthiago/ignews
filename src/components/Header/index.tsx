@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-import { SignInButton } from '../SignInButton';
+import { SignButton } from '../SignButton';
 
 import styles from './styles.module.scss';
 
@@ -18,7 +18,7 @@ export const Header: React.FC = () => {
             <a>Posts</a>
           </Link>
         </nav>
-        <SignInButton />
+        <SignButton />
       </div>
     </header>
   );

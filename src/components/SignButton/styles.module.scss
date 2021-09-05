@@ -29,4 +29,15 @@
       margin-left: 0.75rem;
     }
   }
+
+  .imageWrapper {
+    display: flex;
+    align-items: center;
+    
+    margin-right: 1rem;
+
+    img {
+      border-radius: 1.375rem;
+    }
+  }
 }
