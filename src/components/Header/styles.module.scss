@@ -1,6 +1,6 @@
 .headerContainer {
   height: 5rem;
-  border-bottom: 1px solid var(--gray-800);
+  border-bottom: 1px solid var(--gray-700);
 }
 
 .headerContent {
@@ -25,7 +25,7 @@
 
       color: var(--gray-300);
       line-height: 5rem;
-      transition: color 0.4s ease-in-out;
+      transition: color 0.2s ease;
 
       &:hover {
         color: var(--white);
@@ -53,5 +53,9 @@
         }
       }
     }
+  }
+
+  > button {
+    margin-left: auto;
   }
 }
