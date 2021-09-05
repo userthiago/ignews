@@ -9,8 +9,6 @@ import styles from './styles.module.scss';
 export const SignButton: React.FC = () => {
   const [session] = useSession();
 
-  console.log(session);
-
   if(session) {
     return (
       <button 
